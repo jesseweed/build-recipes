@@ -1,0 +1,17 @@
+.DS_Store
+.nodemonignore
+.webpack_build_cache
+.vscode/
+
+*.log
+*.sublime-project
+*.sublime-workspace
+
+_dist/
+bower_components/
+dump.rdb
+node_modules/
+public/*.css
+typings/
+
+stats.html

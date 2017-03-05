@@ -1,0 +1,26 @@
+doctype html
+html(lang='en')
+  head
+
+    title Huck
+
+    //- META
+    meta(http-equiv='X-UA-COMPATIBLE' content='IE=edge')
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(http-equiv='Cache-control' content='no-cache')
+    meta(http-equiv='Expires' content='-1')
+
+    //- STYLES
+    link(rel='stylesheet', href='app.css')
+
+    //- SCRIPTS
+    script(src='/app.min.js')
+
+  body
+
+    #app
+      sample-app
+
+    script.
+      document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')

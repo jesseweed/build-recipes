@@ -1,0 +1,7 @@
+{
+  "watch": [
+    "server",
+    "shared"
+  ],
+  "ext" : "js jade pug scss css"
+}
