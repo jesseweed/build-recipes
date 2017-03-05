@@ -1,12 +1,17 @@
 {
   "name": "build-config",
-  "version": "0.1.0",
-  "description": "JS Build Config Recipes",
+  "version": "0.2.0",
+  "description": "JS Build Recipes",
   "main": "server.js",
   "repository": "https://github.com/jesseweed/build-config",
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup",
+    "build-all": "npm-run-all --parallel build-react build-riot build-vue",
+    "build-react": "rollup -c ./rollup/react.js",
+    "build-riot": "rollup -c ./rollup/riot.js",
+    "build-vue": "rollup -c ./rollup/vue.js",
+    "compare": "yarn build-all",
     "rollup": "rollup -c --watch",
     "start": "forever -m 5 --minUptime 1000 --spinSleepTime 500 server.js",
     "knit": "npm-run-all --parallel rollup watch",
@@ -79,6 +84,7 @@
     "serve-favicon": "^2.4.1",
     "socket.io": "^1.7.2",
     "socket.io-client": "^1.7.2",
+    "uglify-js": "^2.8.7",
     "vue": "^2.2.1",
     "vue-server-renderer": "^2.2.1",
     "winston": "^2.3.1"
