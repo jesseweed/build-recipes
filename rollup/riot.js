@@ -1,10 +1,15 @@
+import { common }     from './_common.js';
 import commonjs       from 'rollup-plugin-commonjs';
 import postcss        from 'postcss';
 import postcssCssnext from 'postcss-cssnext';
 import riot           from 'rollup-plugin-riot';
 
-let rollup = {
+let config = {
   entry: './client/riot/index.js',
+  dest: 'examples/riot.min.js',
+  format: common.format,
+  moduleName: common.moduleName,
+  sourceMap: common.sourceMap,
   plugins: [
     riot({
       ext: 'html',
@@ -22,4 +27,9 @@ let rollup = {
   ]
 };
 
-export {rollup};
+// APPEND COMMON PLUGINS
+common.plugins.forEach((value, key) => {
+  config.plugins.push(value);
+});
+
+export default config;

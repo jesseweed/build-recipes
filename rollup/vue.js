@@ -1,10 +1,21 @@
-import commonjs from 'rollup-plugin-commonjs';
+import { common } from './_common.js';
+import commonjs   from 'rollup-plugin-commonjs';
 
-let rollup = {
+let vue = {
   entry: './client/vue/index.js',
+  dest: 'examples/vue.min.js',
+  format: common.format,
+  moduleName: common.moduleName,
+  sourceMap: common.sourceMap,
   plugins: [
     commonjs()
   ]
 };
 
-export { rollup };
+// APPEND COMMON PLUGINS
+common.plugins.forEach((value, key) => {
+  vue.plugins.push(value);
+});
+
+// module.exports = vue;
+export default vue;

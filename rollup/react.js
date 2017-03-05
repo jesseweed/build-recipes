@@ -1,7 +1,12 @@
-import cjs     from 'rollup-plugin-commonjs';
+import { common } from './_common.js';
+import cjs        from 'rollup-plugin-commonjs';
 
-let rollup = {
+let react = {
   entry: './client/react/index.js',
+  dest: 'examples/react.min.js',
+  format: common.format,
+  moduleName: common.moduleName,
+  sourceMap: common.sourceMap,
   plugins: [
     cjs({
       exclude: 'node_modules/process-es6/**',
@@ -15,4 +20,9 @@ let rollup = {
   ]
 };
 
-export { rollup };
+// APPEND COMMON PLUGINS
+common.plugins.forEach((value, key) => {
+  react.plugins.push(value);
+});
+
+export default react;
