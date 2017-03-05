@@ -19,16 +19,16 @@ If you want just to build individual library you can so so as follows:
 
 
 ## React
-**files:** client/react
-**config:** rollup/react.js
+- **files:** client/react
+- **config:** rollup/react.js
 
 ## Riot
-**files:** client/riot
-**config:** rollup/riot
+- **files:** client/riot
+- **config:** rollup/riot
 
 ## Vue
-**files:** client/vue
-**config:** rollup/vue.js
+- **files:** client/vue
+- **config:** rollup/vue.js
 
 
 
