@@ -5,6 +5,19 @@ This is a simple collection of config & build system recipes for bootstrapping (
 
 It currently only supports rollup & a small handful of libraries, but will be adding more over time (feel free to submit pull-requests for additional libraries or build systems).
 
+## Purpose
+The primary purpose is to make bootstrapping a new project much faster & easier with a baseline config to start with.
+
+The secondary purpose is to compare various libraries and build tools based on a few criteria:
+
+1. How simple is it to setup and configure? Can it be done in a few lines of code? Hundreds? How many config files are reasonably required.
+2. What's is the output files size?
+3. What is the average page load time.
+
+To do this, each framework has a very basic "hello world" style app with lives in the **/client** folder, and outputs "hello" and the name of the framework in an `<h1>` tag. This lets us compare apps against what is quite literally the simplest page possible.
+
+Where supported, each app will use an html template file (or equivalent) for the content it will output.
+
 ## Try it out
 To test things out locally, simply uncomment the line for the framework you want to use in **rollup.config.js**, and run `yarn knit` to run a build & start the server (this will create the file **_dist/app.min.js** which is loaded by **server/views/index.pug**). Point your browser to [http://localhost:3000](http://localhost:3000).
 
@@ -15,7 +28,7 @@ To test things out locally, simply uncomment the line for the framework you want
 <table>
   <thead>
     <td><strong>Framework</strong></td>
-    <td><strong>Size</strong></td>
+    <td><strong>Build Size</strong></td>
     <td><strong>Config lines</strong></td>
     <td><strong>Client Files</strong></td>
     <td><strong>Config File</strong></td>
