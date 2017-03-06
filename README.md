@@ -22,7 +22,7 @@ To test things out locally, simply uncomment the line for the framework you want
     <td><strong>Build command</strong></td>
   </thead>
   <tr>
-    <td><a href='preactjs.com'>Preact</a>\*</td>
+    <td><a href='preactjs.com'>Preact</a>*</td>
     <td>34 KB</td>
     <td>34</td>
     <td>client/preact</td>
