@@ -16,12 +16,12 @@ If you want to compare output size of each framework, you can run `yarn compare`
 
 <table>
   <thead>
-    <td>Framework</td>
-    <td>Size</td>
-    <td>Config lines</td>
-    <td>Client Files</td>
-    <td>Config File</td>
-    <td>Build command</td>
+    <td>**Framework**</td>
+    <td>**Size**</td>
+    <td>**Config lines**</td>
+    <td>**Client Files**</td>
+    <td>**Config File**</td>
+    <td>**Build command**</td>
   </thead>
   <tr>
     <td>Preact*</td>
@@ -29,7 +29,7 @@ If you want to compare output size of each framework, you can run `yarn compare`
     <td>34</td>
     <td>client/preact</td>
     <td>rollup/preact</td>
-    <td>`yarn build-preact`</td>
+    <td><code>yarn build-preact</code></td>
   </tr>
   <tr>
     <td>React</td>
@@ -37,7 +37,7 @@ If you want to compare output size of each framework, you can run `yarn compare`
     <td>29</td>
     <td>client/react</td>
     <td>rollup/react</td>
-    <td>`yarn build-react`</td>
+    <td><code>yarn build-react</code></td>
   </tr>
   <tr>
     <td>Riot</td>
@@ -45,7 +45,7 @@ If you want to compare output size of each framework, you can run `yarn compare`
     <td>36</td>
     <td>client/riot</td>
     <td>rollup/riot</td>
-    <td>`yarn build-riot`</td>
+    <td><code>yarn build-riot</code></td>
   </tr>
   <tr>
     <td>Vue</td>
@@ -53,7 +53,7 @@ If you want to compare output size of each framework, you can run `yarn compare`
     <td>22</td>
     <td>client/vue</td>
     <td>rollup/vue</td>
-    <td>`yarn build-vue`</td>
+    <td><code>yarn build-vue</code></td>
   </tr>
 </table>
 
