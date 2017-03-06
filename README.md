@@ -41,7 +41,7 @@ To test things out locally, simply uncomment the line for the framework you want
 
   <!-- PREACT -->
   <tr>
-    <td><a href='preactjs.com'>Preact</a>&#42;</td>
+    <td><a href='http://preactjs.com'>Preact</a>&#42;</td>
     <td>34 KB</td>
     <td>34</td>
     <td>client/preact</td>
@@ -51,7 +51,7 @@ To test things out locally, simply uncomment the line for the framework you want
 
   <!-- REACT -->
   <tr>
-    <td><a href='facebook.github.io/react/'>React</a></td>
+    <td><a href='http://facebook.github.io/react/'>React</a></td>
     <td>196 KB</td>
     <td>29</td>
     <td>client/react</td>
@@ -61,7 +61,7 @@ To test things out locally, simply uncomment the line for the framework you want
 
   <!-- RIOT -->
   <tr>
-    <td><a href='riotjs.com'>Riot</a></td>
+    <td><a href='http://riotjs.com'>Riot</a></td>
     <td>35 KB</td>
     <td>36</td>
     <td>client/riot</td>
@@ -71,7 +71,7 @@ To test things out locally, simply uncomment the line for the framework you want
 
   <!-- VUE -->
   <tr>
-    <td><a href='vuejs.org'>Vue</a></td>
+    <td><a href='http://vuejs.org'>Vue</a></td>
     <td>91 KB</td>
     <td>22</td>
     <td>client/vue</td>
@@ -81,7 +81,7 @@ To test things out locally, simply uncomment the line for the framework you want
 
   <!-- VANILLA -->
   <tr>
-    <td><a href='developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources'>Vanilla JavaScript</a> (ES2015)</td>
+    <td><a href='http://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources'>Vanilla JavaScript</a> (ES2015)</td>
     <td>238 B</td>
     <td>22</td>
     <td>client/vanilla</td>
