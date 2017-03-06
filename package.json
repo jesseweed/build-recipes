@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "rollup",
-    "build-all": "npm-run-all --parallel build-react build-riot build-vue build-vanilla",
+    "build-all": "npm-run-all --parallel build-preact build-react build-riot build-vue build-vanilla",
     "build-preact": "rollup -c ./rollup/preact.js",
     "build-react": "rollup -c ./rollup/react.js",
     "build-riot": "rollup -c ./rollup/riot.js",
