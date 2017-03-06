@@ -11,10 +11,6 @@ To test things out locally, simply uncomment the line for the framework you want
 
 
 ## Compare
-If you want to compare output size of each framework, you can run `yarn compare`, this will build all libraries and output them to `examples/library-name.min.js`.
-
-Here's a breakdown of supported libraries so far:
-
 
 <table>
   <thead>
@@ -26,7 +22,7 @@ Here's a breakdown of supported libraries so far:
     <td><strong>Build command</strong></td>
   </thead>
   <tr>
-    <td>[Preact](https://preactjs.com/)\*</td>
+    <td><a href='preactjs.com'>Preact</a>\*</td>
     <td>34 KB</td>
     <td>34</td>
     <td>client/preact</td>
@@ -34,7 +30,7 @@ Here's a breakdown of supported libraries so far:
     <td><code>yarn build-preact</code></td>
   </tr>
   <tr>
-    <td>[React](https://facebook.github.io/react/)</td>
+    <td><a href='facebook.github.io/react/'>React</a></td>
     <td>196 KB</td>
     <td>29</td>
     <td>client/react</td>
@@ -42,7 +38,7 @@ Here's a breakdown of supported libraries so far:
     <td><code>yarn build-react</code></td>
   </tr>
   <tr>
-    <td>[Riot](riotjs.com)</td>
+    <td><a href='riotjs.com'>Riot</a></td>
     <td>35 KB</td>
     <td>36</td>
     <td>client/riot</td>
@@ -50,7 +46,7 @@ Here's a breakdown of supported libraries so far:
     <td><code>yarn build-riot</code></td>
   </tr>
   <tr>
-    <td>[Vue](https://vuejs.org)</td>
+    <td><a href='vuejs.org'>Vue</a></td>
     <td>91 KB</td>
     <td>22</td>
     <td>client/vue</td>
@@ -60,6 +56,14 @@ Here's a breakdown of supported libraries so far:
 </table>
 
 _*Non-minified size. Currently breaks on uglify._
+
+
+If you want to compare output size of all frameworks, you can simple run:
+
+`$ yarn compare`
+
+
+this will build all libraries and output them to **examples/library-name.min.js**.
 
 ## Common
 Libraries all share an additional "common" react file which is currently 55 lines long, and provides the following:
