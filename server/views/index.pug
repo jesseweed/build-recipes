@@ -14,9 +14,6 @@ html(lang='en')
     //- STYLES
     link(rel='stylesheet', href='app.css')
 
-    //- SCRIPTS
-    script(src='/app.min.js')
-
   body
 
     #app
@@ -24,3 +21,5 @@ html(lang='en')
 
     script.
       document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+
+    script(src='/app.min.js')

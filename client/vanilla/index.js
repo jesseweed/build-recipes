@@ -1,9 +1,5 @@
-window.addEventListener('load', function () {
+let root = document.querySelector('sample-app'),
+    header = document.createElement('h1');
 
-  let root = document.querySelector('sample-app'),
-      header = document.createElement('h1');
-
-  header.innerHTML = 'Hello, I\'m Vanilla.';
-  root.appendChild(header);
-
-});
+header.innerHTML = 'Hello, I\'m Vanilla.';
+root.appendChild(header);

@@ -1,8 +1,8 @@
 // LIBRARY
 // import { default as rollup } from './rollup/vue.js'; // VUE
-// import { react as rollup } from './rollup/react.js'; // REACT
+// import { default as rollup } from './rollup/react.js'; // REACT
 // import { default as rollup } from './rollup/preact.js'; // REACT
-// import { riot as rollup } from './rollup/riot.js'; // RIOT
+// import { default as  rollup } from './rollup/riot.js'; // RIOT
 import { default as rollup } from './rollup/vanilla.js'; // REACT
 
 
