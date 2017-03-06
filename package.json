@@ -1,6 +1,6 @@
 {
   "name": "build-config",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "JS Build Recipes",
   "main": "server.js",
   "repository": "https://github.com/jesseweed/build-config",
