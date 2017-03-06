@@ -1,3 +1,7 @@
+## 0.3.0
+- Add Preact
+- Add Vanilla JS
+
 ## 0.2.0
 - Implement **rollup/_common.js** for shared settings
 - Add uglify-js
