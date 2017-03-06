@@ -81,7 +81,7 @@ To test things out locally, simply uncomment the line for the framework you want
 
   <!-- VANILLA -->
   <tr>
-    <td><a href='developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources'>Vanilla JavaScript (ES2015)</a></td>
+    <td><a href='developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources'>Vanilla JavaScript</a> (ES2015)</td>
     <td>238 B</td>
     <td>22</td>
     <td>client/vanilla</td>
