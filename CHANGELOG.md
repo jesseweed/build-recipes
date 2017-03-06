@@ -1,6 +1,8 @@
 ## 0.3.0
-- Add Preact
-- Add Vanilla JS
+- Add libraries:
+  - Preact
+  - Svelte
+  - Vanilla JS
 - Remove window event listeners
 
 ## 0.2.0

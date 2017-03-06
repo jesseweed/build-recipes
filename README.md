@@ -41,7 +41,7 @@ To test things out locally, simply uncomment the line for the framework you want
 
   <!-- PREACT -->
   <tr>
-    <td><a href='http://preactjs.com' target='blank'>Preact</a>&#42;</td>
+    <td><a href='http://preactjs.com'>Preact</a>&#42;</td>
     <td>36 KB</td>
     <td>34</td>
     <td>client/preact</td>
@@ -51,7 +51,7 @@ To test things out locally, simply uncomment the line for the framework you want
 
   <!-- REACT -->
   <tr>
-    <td><a href='http://facebook.github.io/react/' target='blank'>React</a></td>
+    <td><a href='http://facebook.github.io/react/'>React</a></td>
     <td>196 KB</td>
     <td>29</td>
     <td>client/react</td>
@@ -61,7 +61,7 @@ To test things out locally, simply uncomment the line for the framework you want
 
   <!-- RIOT -->
   <tr>
-    <td><a href='http://riotjs.com' target='blank'>Riot</a></td>
+    <td><a href='http://riotjs.com'>Riot</a></td>
     <td>25 KB</td>
     <td>36</td>
     <td>client/riot</td>
@@ -69,9 +69,19 @@ To test things out locally, simply uncomment the line for the framework you want
     <td><code>yarn build-riot</code></td>
   </tr>
 
+  <!-- SVELTE -->
+  <tr>
+    <td><a href='https://svelte.technology/'>Svelte</a></td>
+    <td>2 KB</td>
+    <td>26</td>
+    <td>client/svelte</td>
+    <td>rollup/svelte</td>
+    <td><code>yarn build-svelte</code></td>
+  </tr>
+
   <!-- VUE -->
   <tr>
-    <td><a href='http://vuejs.org' target='blank'>Vue</a></td>
+    <td><a href='http://vuejs.org'>Vue</a></td>
     <td>91 KB</td>
     <td>22</td>
     <td>client/vue</td>
@@ -81,7 +91,7 @@ To test things out locally, simply uncomment the line for the framework you want
 
   <!-- VANILLA -->
   <tr>
-    <td><a href='http://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources' target='blank'>Vanilla JavaScript</a> (ES2015)</td>
+    <td><a href='http://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources'>Vanilla JavaScript</a> (ES2015)</td>
     <td>194 B</td>
     <td>22</td>
     <td>client/vanilla</td>

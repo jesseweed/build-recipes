@@ -1,10 +1,10 @@
 // LIBRARY
 // import { default as rollup } from './rollup/vue.js'; // VUE
 // import { default as rollup } from './rollup/react.js'; // REACT
-// import { default as rollup } from './rollup/preact.js'; // REACT
+// import { default as rollup } from './rollup/preact.js'; // PREACT
 // import { default as  rollup } from './rollup/riot.js'; // RIOT
-import { default as rollup } from './rollup/vanilla.js'; // REACT
-
+// import { default as rollup } from './rollup/vanilla.js'; // VANILLA
+import { default as rollup } from './rollup/svelte.js'; // SVELTE
 
 // OVERRIDE SETTINGS
 rollup.dest       = '_dist/app.min.js'; // GENERIC EXPORT FILE
