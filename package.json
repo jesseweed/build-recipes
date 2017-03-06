@@ -17,8 +17,6 @@
     "rollup": "rollup -c --watch",
     "start": "forever -m 5 --minUptime 1000 --spinSleepTime 500 server.js",
     "knit": "npm-run-all --parallel rollup watch",
-    "stop": "pm2 stop huck",
-    "show": "pm2 show huck",
     "watch": "nodemon server.js"
   },
   "engines": {
