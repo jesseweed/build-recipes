@@ -93,12 +93,9 @@ To test things out locally, simply uncomment the line for the framework you want
 _*Non-minified size. Currently breaks on uglify._
 
 
-If you want to compare output size of all frameworks, you can simple run:
+**Note:** If you want to compare output size of all frameworks, you can simply run: `$ yarn compare`
 
-`$ yarn compare`
-
-
-this will build all libraries and output them to **examples/library-name.min.js**.
+This will build all libraries and output them to **examples/library-name.min.js**.
 
 ## Common
 Libraries all share an additional "common" react file which is currently 55 lines long, and provides the following:
