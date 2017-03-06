@@ -18,6 +18,8 @@ To do this, each framework has a very basic "hello world" style app with lives i
 
 Where supported, each app will use an html template file (or equivalent) for the content it will output.
 
+None of the apps are utilizing any imports beyond what is required by the library (for example, there are no utility functions such as lodash being imported).
+
 ## Try it out
 To test things out locally, simply uncomment the line for the framework you want to use in **rollup.config.js**, and run `yarn knit` to run a build & start the server (this will create the file **_dist/app.min.js** which is loaded by **server/views/index.pug**). Point your browser to [http://localhost:3000](http://localhost:3000).
 
@@ -26,6 +28,8 @@ To test things out locally, simply uncomment the line for the framework you want
 ## Compare
 
 <table>
+
+  <!-- HEADER -->
   <thead>
     <td><strong>Framework</strong></td>
     <td><strong>Build Size</strong></td>
@@ -34,14 +38,18 @@ To test things out locally, simply uncomment the line for the framework you want
     <td><strong>Config File</strong></td>
     <td><strong>Build command</strong></td>
   </thead>
+
+  <!-- PREACT -->
   <tr>
-    <td><a href='preactjs.com'>Preact</a>*</td>
+    <td><a href='preactjs.com'>Preact</a>&#42;</td>
     <td>34 KB</td>
     <td>34</td>
     <td>client/preact</td>
     <td>rollup/preact</td>
     <td><code>yarn build-preact</code></td>
   </tr>
+
+  <!-- REACT -->
   <tr>
     <td><a href='facebook.github.io/react/'>React</a></td>
     <td>196 KB</td>
@@ -50,6 +58,8 @@ To test things out locally, simply uncomment the line for the framework you want
     <td>rollup/react</td>
     <td><code>yarn build-react</code></td>
   </tr>
+
+  <!-- RIOT -->
   <tr>
     <td><a href='riotjs.com'>Riot</a></td>
     <td>35 KB</td>
@@ -58,6 +68,8 @@ To test things out locally, simply uncomment the line for the framework you want
     <td>rollup/riot</td>
     <td><code>yarn build-riot</code></td>
   </tr>
+
+  <!-- VUE -->
   <tr>
     <td><a href='vuejs.org'>Vue</a></td>
     <td>91 KB</td>
@@ -65,6 +77,16 @@ To test things out locally, simply uncomment the line for the framework you want
     <td>client/vue</td>
     <td>rollup/vue</td>
     <td><code>yarn build-vue</code></td>
+  </tr>
+
+  <!-- VANILLA -->
+  <tr>
+    <td><a href='developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources'>Vanilla JavaScript (ES2015)</a></td>
+    <td>238 B</td>
+    <td>22</td>
+    <td>client/vanilla</td>
+    <td>rollup/vanilla</td>
+    <td><code>yarn build-vanilla</code></td>
   </tr>
 </table>
 

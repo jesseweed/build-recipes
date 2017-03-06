@@ -7,11 +7,12 @@
   "license": "MIT",
   "scripts": {
     "build": "rollup",
-    "build-all": "npm-run-all --parallel build-react build-riot build-vue",
+    "build-all": "npm-run-all --parallel build-react build-riot build-vue build-vanilla",
     "build-preact": "rollup -c ./rollup/preact.js",
     "build-react": "rollup -c ./rollup/react.js",
     "build-riot": "rollup -c ./rollup/riot.js",
     "build-vue": "rollup -c ./rollup/vue.js",
+    "build-vanilla": "rollup -c ./rollup/vanilla.js",
     "compare": "yarn build-all",
     "rollup": "rollup -c --watch",
     "start": "forever -m 5 --minUptime 1000 --spinSleepTime 500 server.js",
