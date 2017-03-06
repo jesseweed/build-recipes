@@ -16,12 +16,12 @@ If you want to compare output size of each framework, you can run `yarn compare`
 
 <table>
   <thead>
-    <td>**Framework**</td>
-    <td>**Size**</td>
-    <td>**Config lines**</td>
-    <td>**Client Files**</td>
-    <td>**Config File**</td>
-    <td>**Build command**</td>
+    <td><strong>Framework</strong></td>
+    <td><strong>Size</strong></td>
+    <td><strong>Config lines</strong></td>
+    <td><strong>Client Files</strong></td>
+    <td><strong>Config File</strong></td>
+    <td><strong>Build command</strong></td>
   </thead>
   <tr>
     <td>Preact*</td>
