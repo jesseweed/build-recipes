@@ -42,7 +42,7 @@ To test things out locally, simply uncomment the line for the framework you want
   <!-- PREACT -->
   <tr>
     <td><a href='http://preactjs.com' target='blank'>Preact</a>&#42;</td>
-    <td>34 KB</td>
+    <td>36 KB</td>
     <td>34</td>
     <td>client/preact</td>
     <td>rollup/preact</td>
@@ -62,7 +62,7 @@ To test things out locally, simply uncomment the line for the framework you want
   <!-- RIOT -->
   <tr>
     <td><a href='http://riotjs.com' target='blank'>Riot</a></td>
-    <td>35 KB</td>
+    <td>25 KB</td>
     <td>36</td>
     <td>client/riot</td>
     <td>rollup/riot</td>
@@ -82,7 +82,7 @@ To test things out locally, simply uncomment the line for the framework you want
   <!-- VANILLA -->
   <tr>
     <td><a href='http://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources' target='blank'>Vanilla JavaScript</a> (ES2015)</td>
-    <td>238 B</td>
+    <td>194 B</td>
     <td>22</td>
     <td>client/vanilla</td>
     <td>rollup/vanilla</td>
@@ -98,7 +98,7 @@ _*Non-minified size. Currently breaks on uglify._
 This will build all libraries and output them to **examples/library-name.min.js**.
 
 ## Common
-Libraries all share an additional "common" react file which is currently 55 lines long, and provides the following:
+Libraries all share an additional "common" rollup file (which is currently 55 lines long), and provides the following:
 - ES Lint
 - Babel
 - Resolve helper for commonjs & es2015 styles modules
