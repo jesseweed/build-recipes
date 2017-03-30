@@ -89,6 +89,16 @@ To test things out locally, simply uncomment the line for the framework you want
     <td><code>yarn build-vue</code></td>
   </tr>
 
+  <!-- MARKO -->
+  <tr>
+    <td><a href='http://markojs.com/'>Marko</a></td>
+    <td>49 KB</td>
+    <td>22</td>
+    <td>client/marko</td>
+    <td>rollup/marko</td>
+    <td><code>yarn build-marko</code></td>
+  </tr>
+
   <!-- VANILLA -->
   <tr>
     <td><a href='http://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources'>Vanilla JavaScript</a> (ES2015)</td>

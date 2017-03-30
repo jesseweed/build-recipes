@@ -2,6 +2,8 @@ import commonjsPlugin     from 'rollup-plugin-commonjs';
 import browserifyPlugin   from 'rollup-plugin-browserify-transform';
 import nodeResolvePlugin  from 'rollup-plugin-node-resolve';
 import markoify           from 'markoify';
+import { common }         from './_common.js';
+import commonjs           from 'rollup-plugin-commonjs';
  
 let marko = {
   entry:      './client/marko/index.js',
@@ -18,7 +20,7 @@ let marko = {
       extensions:     [ '.js', '.marko' ]
     }),
     commonjsPlugin({
-      include:    [ 'node_modules/**', '**/*.marko'],
+      include:    [ 'node_modules/**', '**/*.marko', 'client/marko/**/*.js'],
       extensions: [ '.js', '.marko' ]
     })
   ]
