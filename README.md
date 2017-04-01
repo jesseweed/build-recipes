@@ -43,7 +43,7 @@ To test things out locally, simply uncomment the line for the framework you want
   <tr>
     <td><a href='http://preactjs.com'>Preact</a>&#42;</td>
     <td>36 KB</td>
-    <td>34</td>
+    <td>33</td>
     <td>client/preact</td>
     <td>rollup/preact</td>
     <td><code>yarn build-preact</code></td>
@@ -53,7 +53,7 @@ To test things out locally, simply uncomment the line for the framework you want
   <tr>
     <td><a href='http://facebook.github.io/react/'>React</a></td>
     <td>196 KB</td>
-    <td>29</td>
+    <td>28</td>
     <td>client/react</td>
     <td>rollup/react</td>
     <td><code>yarn build-react</code></td>
@@ -63,7 +63,7 @@ To test things out locally, simply uncomment the line for the framework you want
   <tr>
     <td><a href='http://riotjs.com'>Riot</a></td>
     <td>25 KB</td>
-    <td>36</td>
+    <td>35</td>
     <td>client/riot</td>
     <td>rollup/riot</td>
     <td><code>yarn build-riot</code></td>
@@ -73,7 +73,7 @@ To test things out locally, simply uncomment the line for the framework you want
   <tr>
     <td><a href='https://svelte.technology/'>Svelte</a></td>
     <td>2 KB</td>
-    <td>26</td>
+    <td>25</td>
     <td>client/svelte</td>
     <td>rollup/svelte</td>
     <td><code>yarn build-svelte</code></td>
@@ -83,7 +83,7 @@ To test things out locally, simply uncomment the line for the framework you want
   <tr>
     <td><a href='http://vuejs.org'>Vue</a></td>
     <td>91 KB</td>
-    <td>22</td>
+    <td>25</td>
     <td>client/vue</td>
     <td>rollup/vue</td>
     <td><code>yarn build-vue</code></td>
@@ -92,8 +92,8 @@ To test things out locally, simply uncomment the line for the framework you want
   <!-- MARKO -->
   <tr>
     <td><a href='http://markojs.com/'>Marko</a></td>
-    <td>49 KB</td>
-    <td>22</td>
+    <td>2 KB</td>
+    <td>36</td>
     <td>client/marko</td>
     <td>rollup/marko</td>
     <td><code>yarn build-marko</code></td>
@@ -103,7 +103,7 @@ To test things out locally, simply uncomment the line for the framework you want
   <tr>
     <td><a href='http://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources'>Vanilla JavaScript</a> (ES2015)</td>
     <td>194 B</td>
-    <td>22</td>
+    <td>21</td>
     <td>client/vanilla</td>
     <td>rollup/vanilla</td>
     <td><code>yarn build-vanilla</code></td>
