@@ -1,4 +1,4 @@
-var helloComponent = require('./sample-app');
+var helloComponent = require('./sample-app.marko');
 
 helloComponent
   .renderSync({ name:'Marko' })

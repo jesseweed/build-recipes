@@ -6,7 +6,7 @@ import riot           from 'rollup-plugin-riot';
 
 let config = {
   entry: './client/riot/index.js',
-  dest: 'examples/riot.min.js',
+  dest: '_dist/riot.rollup.min.js',
   format: common.format,
   moduleName: common.moduleName,
   sourceMap: common.sourceMap,

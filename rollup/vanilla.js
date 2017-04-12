@@ -3,7 +3,7 @@ import commonjs   from 'rollup-plugin-commonjs';
 
 let vanilla = {
   entry: './client/vanilla/index.js',
-  dest: 'examples/vanilla.min.js',
+  dest: '_dist/vanilla.rollup.min.js',
   format: common.format,
   moduleName: common.moduleName,
   sourceMap: common.sourceMap,

@@ -4,7 +4,7 @@ import commonjs   from 'rollup-plugin-commonjs';
 
 let preact = {
   entry: './client/preact/index.js',
-  dest: 'examples/preact.min.js',
+  dest: '_dist/preact.rollup.min.js',
   format: common.format,
   moduleName: common.moduleName,
   sourceMap: common.sourceMap,
@@ -19,8 +19,6 @@ let preact = {
   ]
 };
 
-// console.log(common.plugins.react);
-
 // APPEND COMMON PLUGINS
 common.plugins.forEach((value, key) => {
   // DON'T IMPORT BABEL OR ESLINT
@@ -29,5 +27,4 @@ common.plugins.forEach((value, key) => {
   }
 });
 
-// module.exports = preact;
 export default preact;

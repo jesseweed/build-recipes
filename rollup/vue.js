@@ -3,7 +3,7 @@ import commonjs   from 'rollup-plugin-commonjs';
 
 let vue = {
   entry: './client/vue/index.js',
-  dest: 'examples/vue.min.js',
+  dest: '_dist/vue.rollup.min.js',
   format: common.format,
   moduleName: common.moduleName,
   sourceMap: common.sourceMap,

@@ -4,7 +4,7 @@ import svelte from 'rollup-plugin-svelte';
 
 let rollup = {
   entry: './client/svelte/index.js',
-  dest: 'examples/svelte.min.js',
+  dest: '_dist/svelte.rollup.js',
   format: common.format,
   moduleName: common.moduleName,
   sourceMap: common.sourceMap,

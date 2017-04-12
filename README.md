@@ -27,6 +27,9 @@ To test things out locally, simply uncomment the line for the framework you want
 
 ## Compare
 
+### Rollup
+*Shared config lines:* 57
+
 <table>
 
   <!-- HEADER -->
@@ -39,11 +42,21 @@ To test things out locally, simply uncomment the line for the framework you want
     <td><strong>Build command</strong></td>
   </thead>
 
+  <!-- MARKO -->
+  <tr>
+    <td><a href='http://markojs.com/'>Marko</a></td>
+    <td>17 KB</td>
+    <td>35</td>
+    <td>client/marko</td>
+    <td>rollup/marko</td>
+    <td><code>yarn build-marko</code></td>
+  </tr>
+
   <!-- PREACT -->
   <tr>
     <td><a href='http://preactjs.com'>Preact</a>&#42;</td>
     <td>36 KB</td>
-    <td>33</td>
+    <td>30</td>
     <td>client/preact</td>
     <td>rollup/preact</td>
     <td><code>yarn build-preact</code></td>
@@ -52,8 +65,8 @@ To test things out locally, simply uncomment the line for the framework you want
   <!-- REACT -->
   <tr>
     <td><a href='http://facebook.github.io/react/'>React</a></td>
-    <td>196 KB</td>
-    <td>28</td>
+    <td>193 KB</td>
+    <td>35</td>
     <td>client/react</td>
     <td>rollup/react</td>
     <td><code>yarn build-react</code></td>
@@ -79,38 +92,116 @@ To test things out locally, simply uncomment the line for the framework you want
     <td><code>yarn build-svelte</code></td>
   </tr>
 
-  <!-- VUE -->
-  <tr>
-    <td><a href='http://vuejs.org'>Vue</a></td>
-    <td>91 KB</td>
-    <td>25</td>
-    <td>client/vue</td>
-    <td>rollup/vue</td>
-    <td><code>yarn build-vue</code></td>
-  </tr>
-
-  <!-- MARKO -->
-  <tr>
-    <td><a href='http://markojs.com/'>Marko</a></td>
-    <td>2 KB</td>
-    <td>36</td>
-    <td>client/marko</td>
-    <td>rollup/marko</td>
-    <td><code>yarn build-marko</code></td>
-  </tr>
-
   <!-- VANILLA -->
   <tr>
     <td><a href='http://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources'>Vanilla JavaScript</a> (ES2015)</td>
-    <td>194 B</td>
+    <td>201 B</td>
     <td>21</td>
     <td>client/vanilla</td>
     <td>rollup/vanilla</td>
     <td><code>yarn build-vanilla</code></td>
   </tr>
+
+  <!-- VUE -->
+  <tr>
+    <td><a href='http://vuejs.org'>Vue</a></td>
+    <td>91 KB</td>
+    <td>21</td>
+    <td>client/vue</td>
+    <td>rollup/vue</td>
+    <td><code>yarn build-vue</code></td>
+  </tr>
+
 </table>
 
 _*Non-minified size. Currently breaks on uglify._
+
+### Webpack
+*Shared config lines:* 60
+
+<table>
+
+  <!-- HEADER -->
+  <thead>
+    <td><strong>Framework</strong></td>
+    <td><strong>Build Size</strong></td>
+    <td><strong>Config lines</strong></td>
+    <td><strong>Client Files</strong></td>
+    <td><strong>Config File</strong></td>
+    <td><strong>Build command</strong></td>
+  </thead>
+
+  <!-- MARKO -->
+  <tr>
+    <td><a href='http://markojs.com/'>Marko</a></td>
+    <td>17 KB</td>
+    <td>17</td>
+    <td>client/marko</td>
+    <td>rollup/marko</td>
+    <td><code>yarn build-marko</code></td>
+  </tr>
+
+  <!-- PREACT -->
+  <tr>
+    <td><a href='http://preactjs.com'>Preact</a>&#42;</td>
+    <td>11 KB</td>
+    <td>24</td>
+    <td>client/preact</td>
+    <td>rollup/preact</td>
+    <td><code>yarn build-preact</code></td>
+  </tr>
+
+  <!-- REACT -->
+  <tr>
+    <td><a href='http://facebook.github.io/react/'>React</a></td>
+    <td>219 KB</td>
+    <td>24</td>
+    <td>client/react</td>
+    <td>rollup/react</td>
+    <td><code>yarn build-react</code></td>
+  </tr>
+
+  <!-- RIOT -->
+  <tr>
+    <td><a href='http://riotjs.com'>Riot</a></td>
+    <td>25 KB</td>
+    <td>21</td>
+    <td>client/riot</td>
+    <td>rollup/riot</td>
+    <td><code>yarn build-riot</code></td>
+  </tr>
+
+  <!-- SVELTE -->
+  <tr>
+    <td><a href='https://svelte.technology/'>Svelte</a></td>
+    <td>4 KB</td>
+    <td>17</td>
+    <td>client/svelte</td>
+    <td>rollup/svelte</td>
+    <td><code>yarn build-svelte</code></td>
+  </tr>
+
+  <!-- VANILLA -->
+  <tr>
+    <td><a href='http://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources'>Vanilla JavaScript</a> (ES2015)</td>
+    <td>687 B</td>
+    <td>11</td>
+    <td>client/vanilla</td>
+    <td>rollup/vanilla</td>
+    <td><code>yarn build-vanilla</code></td>
+  </tr>
+
+  <!-- VUE -->
+  <tr>
+    <td><a href='http://vuejs.org'>Vue</a></td>
+    <td>92 KB</td>
+    <td>11</td>
+    <td>client/vue</td>
+    <td>rollup/vue</td>
+    <td><code>yarn build-vue</code></td>
+  </tr>
+
+</table>
 
 
 **Note:** If you want to compare output size of all frameworks, you can simply run: `$ yarn compare`

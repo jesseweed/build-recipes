@@ -29,7 +29,8 @@ common = {
         'client/**/*.pug',
         'client/**/*.scss',
         'client/**/*.styl',
-        'client/**/*.html'
+        'client/**/*.html',
+        'client/**/*.jsx'
       ]
     }),
     babel({

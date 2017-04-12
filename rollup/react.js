@@ -1,9 +1,10 @@
+import babel      from 'rollup-plugin-babel';
 import { common } from './_common.js';
 import cjs        from 'rollup-plugin-commonjs';
 
 let react = {
   entry: './client/react/index.js',
-  dest: 'examples/react.min.js',
+  dest: '_dist/react.rollup.min.js',
   format: common.format,
   moduleName: common.moduleName,
   sourceMap: common.sourceMap,
@@ -16,6 +17,12 @@ let react = {
         'node_modules/react/**',
         'node_modules/react-dom/**'
       ]
+    }),
+    babel({
+      babelrc: false,
+      exclude: 'node_modules/**',
+      presets: [ [ 'es2015', { modules: false } ], 'stage-0', 'react' ],
+      plugins: [ 'external-helpers' ]
     })
   ]
 };
