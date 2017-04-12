@@ -93,7 +93,7 @@ This will build all libraries and output them to `_dist`.
   <tr>
     <td><a href='http://riotjs.com'>Riot</a></td>
     <td>25 KB</td>
-    <td>35</td>
+    <td>24</td>
     <td>client/riot</td>
     <td>rollup/riot</td>
     <td>2.43s</td>
