@@ -40,6 +40,10 @@ If instead of starting a server, you just want to build all libraries and exit, 
 
 ## Compare
 
+**Note:** If you want to compare output size of all frameworks, you can simply run: `$ yarn build`
+
+This will build all libraries and output them to `_dist`.
+
 ### Rollup
 *Shared config lines:* 57
 
@@ -215,11 +219,6 @@ _*Non-minified size. Currently breaks on uglify._
   </tr>
 
 </table>
-
-
-**Note:** If you want to compare output size of all frameworks, you can simply run: `$ yarn compare`
-
-This will build all libraries and output them to **examples/library-name.min.js**.
 
 ## Common
 Libraries all share an additional "common" rollup or webpack file, and provides the following:
