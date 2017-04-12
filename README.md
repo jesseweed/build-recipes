@@ -154,7 +154,7 @@ _*Non-minified size. Currently breaks on uglify._
     <td>17 KB</td>
     <td>17</td>
     <td>client/marko</td>
-    <td>rollup/marko</td>
+    <td>webpack/marko</td>
     <td>2.03s</td>
   </tr>
 
