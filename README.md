@@ -143,7 +143,7 @@ _*Non-minified size. Currently breaks on uglify._
 
   <!-- PREACT -->
   <tr>
-    <td><a href='http://preactjs.com'>Preact</a>&#42;</td>
+    <td><a href='http://preactjs.com'>Preact</a></td>
     <td>11 KB</td>
     <td>24</td>
     <td>client/preact</td>
