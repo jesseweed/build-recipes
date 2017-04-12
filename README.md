@@ -164,7 +164,7 @@ _*Non-minified size. Currently breaks on uglify._
     <td>11 KB</td>
     <td>24</td>
     <td>client/preact</td>
-    <td>rollup/preact</td>
+    <td>webpack/preact</td>
     <td>1.51s</td>
   </tr>
 
@@ -174,7 +174,7 @@ _*Non-minified size. Currently breaks on uglify._
     <td>219 KB</td>
     <td>24</td>
     <td>client/react</td>
-    <td>rollup/react</td>
+    <td>webpack/react</td>
     <td>5.13s</td>
   </tr>
 
@@ -184,7 +184,7 @@ _*Non-minified size. Currently breaks on uglify._
     <td>25 KB</td>
     <td>21</td>
     <td>client/riot</td>
-    <td>rollup/riot</td>
+    <td>webpack/riot</td>
     <td>1.73s</td>
   </tr>
 
@@ -194,7 +194,7 @@ _*Non-minified size. Currently breaks on uglify._
     <td>4 KB</td>
     <td>17</td>
     <td>client/svelte</td>
-    <td>rollup/svelte</td>
+    <td>webpack/svelte</td>
     <td>1.24s</td>
   </tr>
 
@@ -204,7 +204,7 @@ _*Non-minified size. Currently breaks on uglify._
     <td>687 B</td>
     <td>11</td>
     <td>client/vanilla</td>
-    <td>rollup/vanilla</td>
+    <td>webpack/vanilla</td>
     <td>1.10s</td>
   </tr>
 
@@ -214,7 +214,7 @@ _*Non-minified size. Currently breaks on uglify._
     <td>92 KB</td>
     <td>11</td>
     <td>client/vue</td>
-    <td>rollup/vue</td>
+    <td>webpack/vue</td>
     <td>3.32s</td>
   </tr>
 
