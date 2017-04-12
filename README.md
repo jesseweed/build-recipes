@@ -56,7 +56,6 @@ This will build all libraries and output them to `_dist`.
     <td><strong>Config lines</strong></td>
     <td><strong>Client Files</strong></td>
     <td><strong>Config File</strong></td>
-    <td><strong>Build command</strong></td>
     <td><strong>Build time</strong></td>
   </thead>
 
@@ -67,7 +66,6 @@ This will build all libraries and output them to `_dist`.
     <td>35</td>
     <td>client/marko</td>
     <td>rollup/marko</td>
-    <td><code>yarn rollup-marko</code></td>
     <td>1.86s</td>
   </tr>
 
@@ -78,7 +76,6 @@ This will build all libraries and output them to `_dist`.
     <td>30</td>
     <td>client/preact</td>
     <td>rollup/preact</td>
-    <td><code>yarn rollup-preact</code></td>
     <td>1.27s</td>
   </tr>
 
@@ -89,7 +86,6 @@ This will build all libraries and output them to `_dist`.
     <td>35</td>
     <td>client/react</td>
     <td>rollup/react</td>
-    <td><code>yarn rollup-react</code></td>
     <td>6.94s</td>
   </tr>
 
@@ -100,7 +96,6 @@ This will build all libraries and output them to `_dist`.
     <td>35</td>
     <td>client/riot</td>
     <td>rollup/riot</td>
-    <td><code>yarn rollup-riot</code></td>
     <td>2.43s</td>
   </tr>
 
@@ -111,7 +106,6 @@ This will build all libraries and output them to `_dist`.
     <td>25</td>
     <td>client/svelte</td>
     <td>rollup/svelte</td>
-    <td><code>yarn rollup-svelte</code></td>
     <td>1.43s</td>
   </tr>
 
@@ -122,7 +116,6 @@ This will build all libraries and output them to `_dist`.
     <td>21</td>
     <td>client/vanilla</td>
     <td>rollup/vanilla</td>
-    <td><code>yarn rollup-vanilla</code></td>
     <td>1.18s</td>
   </tr>
 
@@ -133,8 +126,7 @@ This will build all libraries and output them to `_dist`.
     <td>21</td>
     <td>client/vue</td>
     <td>rollup/vue</td>
-    <td><code>yarn rollup-vue</code></td>
-    <td>3.64</td>
+    <td>3.64s</td>
   </tr>
 
 </table>
@@ -153,7 +145,6 @@ _*Non-minified size. Currently breaks on uglify._
     <td><strong>Config lines</strong></td>
     <td><strong>Client Files</strong></td>
     <td><strong>Config File</strong></td>
-    <td><strong>Build command</strong></td>
     <td><strong>Build time</strong></td>
   </thead>
 
@@ -164,7 +155,6 @@ _*Non-minified size. Currently breaks on uglify._
     <td>17</td>
     <td>client/marko</td>
     <td>rollup/marko</td>
-    <td><code>yarn wp-marko</code></td>
     <td>2.03s</td>
   </tr>
 
@@ -175,7 +165,6 @@ _*Non-minified size. Currently breaks on uglify._
     <td>24</td>
     <td>client/preact</td>
     <td>rollup/preact</td>
-    <td><code>yarn wp-preact</code></td>
     <td>1.51s</td>
   </tr>
 
@@ -186,8 +175,7 @@ _*Non-minified size. Currently breaks on uglify._
     <td>24</td>
     <td>client/react</td>
     <td>rollup/react</td>
-    <td><code>yarn wp-react</code></td>
-    <td>5.13</td>
+    <td>5.13s</td>
   </tr>
 
   <!-- RIOT -->
@@ -197,7 +185,6 @@ _*Non-minified size. Currently breaks on uglify._
     <td>21</td>
     <td>client/riot</td>
     <td>rollup/riot</td>
-    <td><code>yarn wp-riot</code></td>
     <td>1.73s</td>
   </tr>
 
@@ -208,7 +195,6 @@ _*Non-minified size. Currently breaks on uglify._
     <td>17</td>
     <td>client/svelte</td>
     <td>rollup/svelte</td>
-    <td><code>yarn wp-svelte</code></td>
     <td>1.24s</td>
   </tr>
 
@@ -219,7 +205,6 @@ _*Non-minified size. Currently breaks on uglify._
     <td>11</td>
     <td>client/vanilla</td>
     <td>rollup/vanilla</td>
-    <td><code>yarn wp-vanilla</code></td>
     <td>1.10s</td>
   </tr>
 
@@ -230,7 +215,6 @@ _*Non-minified size. Currently breaks on uglify._
     <td>11</td>
     <td>client/vue</td>
     <td>rollup/vue</td>
-    <td><code>yarn wp-vue</code></td>
     <td>3.32s</td>
   </tr>
 
